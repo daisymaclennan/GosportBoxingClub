@@ -1,0 +1,89 @@
+header
+  position fixed
+  top 0
+  left 0
+  width 100vw
+
+.header__upper
+  background $white
+  width 100vw
+  height 110px
+  display flex
+  align-items center
+  justify-content center
+
+.header__upper > img:first-of-type
+  height 70px
+  display block
+
+nav
+  background $brightRed
+  color $white
+
+nav li
+  letter-spacing 0.1em
+  text-transform uppercase
+  font-weight bolder
+
+@media screen and (max-width: 800px)
+  nav
+    display none
+    position fixed
+    width 100vw
+    height calc(100vh - 110px)
+    top 110px
+
+  .open
+    display block
+
+  nav ul
+    margin-top 50px
+
+  nav li
+    font-size 24px
+    margin-left $mobileMargin
+    margin-bottom 20px
+
+  .nav__button
+    position fixed
+    right $mobileMargin
+    height 26px
+    display block
+
+  .nav__bottom
+    position absolute
+    bottom 0
+
+  .nav__bottom
+    padding-left $mobileMargin
+    padding-bottom 50px
+    display flex
+    flex-direction column
+
+  .nav__bottom p
+    margin 0
+
+  .nav__bottom  p:first-of-type
+    margin-bottom 15px
+
+@media screen and (min-width: 800px)
+  .nav__button, .nav__bottom
+    display none
+
+  nav
+    width 100vw
+    height 70px
+
+  ul
+    margin-top auto
+    margin-bottom auto
+    margin-left $desktopMargin
+    margin-right $desktopMargin
+    display flex
+    height 100%
+    width calc(100% - 60px)
+    align-items center
+    justify-content space-between
+
+  nav li
+    font-size 24px
