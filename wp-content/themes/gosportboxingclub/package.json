@@ -1,0 +1,14 @@
+{
+  "name": "gosportboxingclub",
+  "version": "1.0.0",
+  "description": "Wordpress theme for Gosport Boxing Club.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Daisy Maclennan",
+  "license": "ISC",
+  "dependencies": {
+    "stylus": "^0.54.7"
+  }
+}
