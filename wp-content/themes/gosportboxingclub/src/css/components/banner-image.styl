@@ -1,0 +1,22 @@
+.banner-image,
+.banner-image--desktop
+  position relative
+  width 100vw
+  overflow hidden
+  object-fit cover
+  object-position center
+
+@media screen and (max-width: 800px)
+  .banner-image
+    left - $mobileMargin
+    height 300px
+
+
+@media screen and (min-width: 800px)
+  .banner-image,
+  .banner-image--desktop
+    left - $desktopMargin
+    height 40vw
+    max-height 600px
+    grid-column-start 1
+    grid-column-end 13

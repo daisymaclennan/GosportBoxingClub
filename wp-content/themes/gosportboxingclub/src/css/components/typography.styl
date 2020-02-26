@@ -2,30 +2,44 @@
   font-family 'Proxima Nova'
   font-weight lighter
   font-display swap
-  src local('Proxima Nova') url(../ProximaNova/ProximaNova-Light.otf) format('otf')
+  src url(../ProximaNova/ProximaNova-Light.otf) format('opentype')
 
 @font-face
   font-family 'ProximaNova'
   font-weight normal
   font-display swap
-  src local('Proxima Nova') url(../ProximaNova/ProximaNova-Regular.otf) format('opentype')
+  src url(../ProximaNova/ProximaNova-Regular.otf) format('opentype')
 
 @font-face
   font-family 'Proxima Nova'
   font-weight bold
   font-display swap
-  src local('Proxima Nova') url(../ProximaNova/ProximaNova-Semibold.otf) format('otf')
+  src url(../ProximaNova/ProximaNova-Semibold.otf) format('opentype')
 
 @font-face
   font-family 'Proxima Nova'
   font-weight bolder
   font-display swap
-  src local('Proxima Nova') url(../ProximaNova/ProximaNova-Bold.otf) format('otf')
+  src url(../ProximaNova/ProximaNova-Bold.otf) format('opentype')
+
+.paragraph
+  opacity 0.8
+
+h1
+  letter-spacing: 0.07em;
 
 @media screen and (min-width: 800px)
   h1
     font-size 64px
     line-height 90px
+    margin-top 75px
+    margin-bottom 50px
+    grid-column-start 2
+    grid-column-end 12
+
+  .title--big
+    margin-top 100px
+    margin-bottom 120px  
 
   h2
     font-size 48px
@@ -33,13 +47,26 @@
 
   p
     font-size 36px
-    line-height 48px
+    line-height 175%
+
+  .text__center
+    text-align center
+
+  .paragraph
+    grid-column-start 2
+    grid-column-end 8
 
 
 @media screen and (max-width: 800px)
   h1
     font-size 24px
     line-height 30px
+    margin-top 40px
+    margin-bottom 20px
+
+  .big-title
+    margin-top 50px
+    margin-bottom 60px
 
   h2
     font-size 20px

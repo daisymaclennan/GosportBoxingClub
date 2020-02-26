@@ -1,0 +1,28 @@
+.content
+  position absolute
+  z-index -1
+
+@media screen and (max-width: 800px)
+  .content
+    width calc(100vw - calc(2 * 16px))
+    top 110px
+    left $mobileMargin
+    right $mobileMargin
+
+  .reverse
+    display flex
+    flex-direction column-reverse
+
+  .reverse img
+    width 100%
+
+@media screen and (min-width: 800px)
+  .content
+    width calc(100vw - calc(2 * 30px))
+    top 180px
+    left $desktopMargin
+    right $desktopMargin
+
+    display grid
+    grid-template-columns repeat(12, 1fr)
+    grid-column-gap 30px

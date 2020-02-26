@@ -21,38 +21,38 @@
       <nav class="nav">
         <ul>
           <li>
-            <a>
+            <a href="/">
               Home
             </a>
           </li>
           <li>
-            <a>
+            <a href="/about-us">
               About us
             </a>
           </li>
           <li>
-            <a>
+            <a href="/our-classes">
               Our classes
             </a>
           </li>
           <li>
-            <a>
+            <a href="/timetable">
               Timetable
             </a>
           </li>
           <li>
-            <a>
+            <a href="/gallery">
               Gallery
             </a>
           </li>
         </ul>
         <div class="nav__bottom">
-          <a>
+          <a href="07767662355">
             <p>
               07767662355
             </p>
           </a>
-          <a>
+          <a href="mailto:gosportamateurboxingclub@live.co.uk">
             <p>
               gosportamateurboxingclub@live.co.uk
             </p>
