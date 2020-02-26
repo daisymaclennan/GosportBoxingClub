@@ -23,11 +23,13 @@
       endif;
     ?>
   </div>
-  <div class="carousel__buttons">
-    <button class="carousel__buttons--prev"><i class="fas fa-arrow-left fa-xs"></i>PREV</button>
-    <span class="carousel__slide-index">1</span>
-    <button class="carousel__buttons--next">NEXT<i class="fas fa-arrow-right fa-xs"></i></button>
-  </div>
+  <?php if(have_rows('images')): ?>
+    <div class="carousel__buttons">
+      <button class="carousel__buttons--prev"><i class="fas fa-arrow-left fa-xs"></i>PREV</button>
+      <span class="carousel__slide-index">1</span>
+      <button class="carousel__buttons--next">NEXT<i class="fas fa-arrow-right fa-xs"></i></button>
+    </div>
+  <?php endif; ?>
 
 
 
