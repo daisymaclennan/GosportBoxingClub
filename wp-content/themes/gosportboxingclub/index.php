@@ -6,6 +6,5 @@
   <h1 class="title--big"><?= get_field('tagline') ?></h1>
 
   <p class="paragraph"><?= get_field('content') ?></p>
-</div>
 
 <?php get_footer(); ?>

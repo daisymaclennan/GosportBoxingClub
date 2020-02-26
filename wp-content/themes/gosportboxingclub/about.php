@@ -10,7 +10,7 @@
 
   <p class="paragraph"><?= get_field('content') ?></p>
 
-  <h1 class="text__center">Meet the coaches</h1>
+  <h1 class="text__center title--second">Meet the coaches</h1>
 
   <p class="text__center text__center--caption"><?= get_field('coach_text') ?></p>
 
@@ -26,6 +26,5 @@
       endif;
     ?>
   </div>
-</div>
 
 <?php get_footer() ?>
