@@ -11,6 +11,7 @@
   "author": "Daisy Maclennan",
   "license": "ISC",
   "dependencies": {
+    "siema": "^1.5.1",
     "stylus": "^0.54.7"
   },
   "devDependencies": {

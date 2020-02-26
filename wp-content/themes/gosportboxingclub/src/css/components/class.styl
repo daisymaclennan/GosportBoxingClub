@@ -1,0 +1,30 @@
+.ages
+  text-transform uppercase
+  text-align right
+  letter-spacing 0.05em
+  font-weight bold
+
+.ages__label
+  opacity 0.5
+
+@media screen and (max-width: 1000px)
+  .ages__label
+    font-size 10px
+
+  .ages__value
+    font-size 18px
+
+  .content > .ages
+    margin-bottom 20px
+
+@media screen and (min-width: 1000px)
+  .content > .ages
+    grid-column-start 2
+    grid-column-end 12
+    margin-bottom 40px
+
+  .content > .ages > .ages__label
+    font-size 24px
+
+  .content > .ages > .ages__value
+    font-size 48px

@@ -1,0 +1,35 @@
+.gallery
+  display grid
+
+.gallery img
+  width 100%
+  object-fit cover
+
+@media screen and (max-width: 1000px)
+  .gallery
+    margin-top 40px
+    grid-row-gap 20px
+    grid-column-gap 20px
+
+
+@media screen and (min-width: 1000px)
+  .gallery
+    margin-top 100px
+    grid-column-start 2
+    grid-column-end 12
+    grid-column-gap 30px
+    grid-row-gap 30px
+
+@media screen and (min-width: 800px) and (max-width: 1400px)
+  .gallery
+    grid-template-columns 1fr 1fr
+
+  .gallery img
+    height 42vw
+
+@media screen and (min-width: 1400px)
+  .gallery
+    grid-template-columns 1fr 1fr 1fr
+
+  .gallery img
+    height 25vw

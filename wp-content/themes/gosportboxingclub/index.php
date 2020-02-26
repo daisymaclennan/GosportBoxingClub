@@ -5,6 +5,14 @@
 
   <h1 class="title--big"><?= get_field('tagline') ?></h1>
 
-  <p class="paragraph"><?= get_field('content') ?></p>
+  <p class="paragraph">
+    <?= get_field('content') ?>
+    <br />
+    <button class="button--solid">
+      <p>Our classes</p>
+    </button>
+  </p>
+
+
 
 <?php get_footer(); ?>
