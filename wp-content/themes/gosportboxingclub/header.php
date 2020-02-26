@@ -57,6 +57,14 @@
               <?php the_field('email_address', 'option'); ?>
             </p>
           </a>
+          <div class="social-icons">
+            <a href="<?php the_field('facebook_url', 'option') ?>">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="<?php the_field('twitter_url', 'option') ?>">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </div>
         </div>
       </nav>
     </header>

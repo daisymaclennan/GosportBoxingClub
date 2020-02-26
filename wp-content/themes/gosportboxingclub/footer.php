@@ -15,8 +15,12 @@
             </a>
           </div>
           <div class="social-icons">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
+            <a href="<?php the_field('facebook_url', 'option') ?>">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="<?php the_field('twitter_url', 'option') ?>">
+              <i class="fab fa-twitter-square"></i>
+            </a>
           </div>
           <small>Copyright &copy; 2020 Gosport Boxing Club</small>
         </div>
