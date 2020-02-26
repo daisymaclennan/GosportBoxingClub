@@ -47,14 +47,14 @@
           </li>
         </ul>
         <div class="nav__bottom">
-          <a href="07767662355">
+          <a href="<?php the_field('phone_number', 'option'); ?>">
             <p>
-              07767662355
+              <?php the_field('phone_number', 'option'); ?>
             </p>
           </a>
-          <a href="mailto:gosportamateurboxingclub@live.co.uk">
+          <a href="mailto:<?php the_field('email_address', 'option'); ?>">
             <p>
-              gosportamateurboxingclub@live.co.uk
+              <?php the_field('email_address', 'option'); ?>
             </p>
           </a>
         </div>
