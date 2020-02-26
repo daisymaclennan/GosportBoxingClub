@@ -47,7 +47,7 @@
           </li>
         </ul>
         <div class="nav__bottom">
-          <a href="<?php the_field('phone_number', 'option'); ?>">
+          <a class="nav__bottom--phone" href="<?php the_field('phone_number', 'option'); ?>">
             <p>
               <?php the_field('phone_number', 'option'); ?>
             </p>
